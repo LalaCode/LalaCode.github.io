@@ -88,14 +88,21 @@ font-size: 250%;
   vertical-align: text-top;
   width: 25%;
   border: 2px solid grey;
-  margin: 20px 3px 3px 3px;
+  margin: 20px 10px 10px 3px;
   overflow: auto;
   min-width: 300px;
   text-align: center;
 
-
 }
 
+.courses_group {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-left: 10%;
+
+
+}
 
 #mcimage {
 width: 300px;
