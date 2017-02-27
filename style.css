@@ -29,8 +29,10 @@ header{
   z-index: 0;
   text-align: center;
   margin-top: -180px;
-  font-size: 300%;
+  font-size: 370%;
   width: 100%;
+  font-family: 'Barrio', cursive;
+
 }
 
 #small_title_head {
@@ -38,24 +40,28 @@ header{
   margin: auto;
   z-index: 0;
   text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 #sub_title {
 display: block;
 margin: auto;
 text-align: center;
-margin-top: 130px;
+margin-top: 110px;
 
 }
 
 #tech{
   color:#B7005E;
   font-size: 200%;
+  font-family: 'Raleway', sans-serif;
 }
 
 #intro {
   color:#B7005E;
   font-size: 140%;
+  font-family: 'Raleway', sans-serif;
 }
 
 #sub_title {
@@ -67,3 +73,11 @@ margin-top: 130px;
   padding: 15px;
 }
 
+#current {
+display: block;
+margin: auto;
+text-align: center;
+font-family: 'Barrio', cursive;
+font-size: 250%;
+
+}
