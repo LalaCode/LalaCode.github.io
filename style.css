@@ -30,6 +30,7 @@ header{
   text-align: center;
   margin-top: -180px;
   font-size: 300%;
+  width: 100%;
 }
 
 #small_title_head {
@@ -39,6 +40,30 @@ header{
   text-align: center;
 }
 
+#sub_title {
+display: block;
+margin: auto;
+text-align: center;
+margin-top: 130px;
 
+}
 
+#tech{
+  color:#B7005E;
+  font-size: 200%;
+}
+
+#intro {
+  color:#B7005E;
+  font-size: 140%;
+}
+
+#sub_title {
+  
+  width: 100%;
+  margin: : 10px;
+  background-color: #CCCCCC;
+  border-radius: .5%;
+  padding: 15px;
+}
 
