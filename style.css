@@ -135,6 +135,10 @@ width: 300px;
   font-family: 'Raleway', sans-serif;
   color: #757575;
 }
+
+a:visited { 
+    color: #F7CB15;
+}
 table {
   display: block;
   margin: auto;
