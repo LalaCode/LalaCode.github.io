@@ -87,11 +87,12 @@ font-size: 250%;
   display: inline-block;
   vertical-align: text-top;
   width: 25%;
-  border: 2px solid grey;
-  margin: 20px 10px 10px 3px;
+  margin: 30px 30px 30px 3px;
   overflow: auto;
   min-width: 300px;
   text-align: center;
+  height: 550px;
+
 
 }
 
@@ -101,9 +102,19 @@ font-size: 250%;
   width: 100%;
   padding-left: 10%;
 
-
 }
 
 #mcimage {
 width: 300px;
+}
+
+#class_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+
+}
+
+#class_descrip {
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
 }
