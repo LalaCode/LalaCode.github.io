@@ -49,7 +49,7 @@ display: block;
 margin: auto;
 text-align: center;
 margin-top: 110px;
-width: 98%;
+width: 100%;
 
 }
 
@@ -67,7 +67,7 @@ width: 98%;
 
 #sub_title {
   
-  width: 100%;
+  width: 1000px;
   margin: : 10px;
   background-color: #CCCCCC;
   border-radius: .5%;
@@ -94,6 +94,7 @@ font-size: 250%;
   height: 550px;
 
 
+
 }
 
 .courses_group {
@@ -117,4 +118,19 @@ width: 300px;
 #class_descrip {
   font-family: 'Raleway', sans-serif;
   color: #757575;
+}
+
+ul {
+  list-style-type: none;
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
+  list-style-position: outside;
+  text-align: center;
+}
+
+table {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
 }
