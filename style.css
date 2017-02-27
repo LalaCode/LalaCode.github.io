@@ -88,7 +88,6 @@ font-size: 250%;
   vertical-align: text-top;
   width: 25%;
   margin: 30px 30px 30px 3px;
-  overflow: auto;
   min-width: 300px;
   text-align: center;
   height: 550px;
@@ -109,6 +108,10 @@ font-size: 250%;
 width: 300px;
 }
 
+#mbot {
+  height: 185px;
+}
+
 #class_title {
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
@@ -120,14 +123,18 @@ width: 300px;
   color: #757575;
 }
 
-ul {
-  list-style-type: none;
+#prereq {
   font-family: 'Raleway', sans-serif;
   color: #757575;
-  list-style-position: outside;
   text-align: center;
+  display: inline-block;
+  vertical-align: baseline;
 }
 
+#click {
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
+}
 table {
   display: block;
   margin: auto;
