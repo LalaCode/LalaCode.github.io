@@ -11,7 +11,7 @@ body {
 }
 
 h1, h2, h3 {
-  color: #A80056;
+  color: #600032;
 }
 
 header{
@@ -20,5 +20,25 @@ header{
   width: 1000px;
   margin: auto;
   display: block;
-
+  z-index: -1;
 }
+
+#title_head {
+  display: block;
+  margin: auto;
+  z-index: 0;
+  text-align: center;
+  margin-top: -180px;
+  font-size: 300%;
+}
+
+#small_title_head {
+  display: block;
+  margin: auto;
+  z-index: 0;
+  text-align: center;
+}
+
+
+
+
