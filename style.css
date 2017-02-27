@@ -1,0 +1,147 @@
+#workshops {
+  background-color: #FFFFFF;
+  border-color: #FFFFFF;
+  border-style: solid;
+  padding: 8px;
+  border-radius: 25px;
+}
+
+body {
+  background-color: #FFFFFF;
+}
+
+h1, h2, h3 {
+  color: #600032;
+}
+
+header{
+  background-image: url("robots.png");
+  height: 230px;
+  width: 1000px;
+  margin: auto;
+  display: block;
+  z-index: -1;
+}
+
+#title_head {
+  display: block;
+  margin: auto;
+  z-index: 0;
+  text-align: center;
+  margin-top: -180px;
+  font-size: 370%;
+  width: 100%;
+  font-family: 'Barrio', cursive;
+
+}
+
+#small_title_head {
+  display: block;
+  margin: auto;
+  z-index: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+#sub_title {
+display: block;
+margin: auto;
+text-align: center;
+margin-top: 110px;
+width: 100%;
+
+}
+
+#tech{
+  color:#B7005E;
+  font-size: 200%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#intro {
+  color:#B7005E;
+  font-size: 140%;
+  font-family: 'Raleway', sans-serif;
+}
+
+#sub_title {
+  
+  width: 1000px;
+  margin: : 10px;
+  background-color: #CCCCCC;
+  border-radius: .5%;
+  padding: 15px;
+}
+
+#current {
+display: block;
+margin: auto;
+text-align: center;
+font-family: 'Barrio', cursive;
+font-size: 250%;
+
+}
+
+.workshops {
+  display: inline-block;
+  vertical-align: text-top;
+  width: 25%;
+  margin: 30px 30px 30px 3px;
+  min-width: 300px;
+  text-align: center;
+  height: 550px;
+
+
+
+}
+
+.courses_group {
+  display: block;
+  margin: auto;
+  width: 100%;
+  padding-left: 10%;
+
+}
+
+#mcimage {
+width: 300px;
+}
+
+#mbot {
+  height: 185px;
+}
+
+#class_title {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 150%;
+
+}
+
+#class_descrip {
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
+}
+
+#prereq {
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
+  text-align: center;
+  display: inline-block;
+  vertical-align: baseline;
+}
+
+#click {
+  font-family: 'Raleway', sans-serif;
+  color: #757575;
+}
+
+a:visited { 
+    color: #F7CB15;
+}
+table {
+  display: block;
+  margin: auto;
+  text-align: center;
+  width: 50%;
+}
