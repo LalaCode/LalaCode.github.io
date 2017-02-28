@@ -67,7 +67,7 @@ width: 100%;
 
 #sub_title {
   
-  width: 1000px;
+  width: 100%;
   margin: : 10px;
   background-color: #CCCCCC;
   border-radius: .5%;
@@ -87,21 +87,18 @@ font-size: 250%;
   display: inline-block;
   vertical-align: text-top;
   width: 25%;
-  margin: 30px 30px 30px 3px;
-  min-width: 300px;
+  margin: 30px 3px 3px 3px;
+  min-width: 305px;
   text-align: center;
   height: 550px;
-
-
 
 }
 
 .courses_group {
-  display: block;
-  margin: auto;
+  display: inline-block;
+  margin: 0 auto;
   width: 100%;
-  padding-left: 10%;
-
+  text-align: center;
 }
 
 #mcimage {
@@ -114,6 +111,11 @@ width: 300px;
 
 #textiles {
   height: 185px;
+}
+
+#kids {
+  display: block;
+  margin: auto;
 }
 
 #class_title {
@@ -150,9 +152,31 @@ width: 300px;
 a:visited { 
     color: #F7CB15;
 }
+
 table {
   display: block;
   margin: auto;
   text-align: center;
   width: 50%;
+}
+
+th, tr {
+  height: 50px;
+  width: 50%;
+}
+
+#contact {
+  display: block;
+  text-align: center;
+
+}
+
+@media screen and (max-width: 480px) {
+    #intro  {
+        font-size: 70%;
+    }
+
+    #tech {
+      font-size: 100%
+    }
 }
