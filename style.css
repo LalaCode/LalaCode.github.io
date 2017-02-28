@@ -116,6 +116,11 @@ width: 300px;
   height: 185px;
 }
 
+#kids {
+  display: block;
+  margin: auto;
+}
+
 #class_title {
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
@@ -150,9 +155,21 @@ width: 300px;
 a:visited { 
     color: #F7CB15;
 }
+
 table {
   display: block;
   margin: auto;
   text-align: center;
   width: 50%;
+}
+
+th, tr {
+  height: 50px;
+  width: 50%;
+}
+
+#contact {
+  display: block;
+  text-align: center;
+
 }
