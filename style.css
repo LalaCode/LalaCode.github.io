@@ -112,10 +112,21 @@ width: 300px;
   height: 185px;
 }
 
+#textiles {
+  height: 185px;
+}
+
 #class_title {
     font-family: 'Open Sans', sans-serif;
     font-size: 150%;
 
+}
+#availability {
+  font-family: 'Barrio', cursive;
+  font-size: 190%;
+  display: block;
+  text-align: center;
+  margin-top: 10%;
 }
 
 #class_descrip {
