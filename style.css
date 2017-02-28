@@ -68,8 +68,7 @@ width: 100%;
 #sub_title {
   
   width: 100%;
-  margin: : 10px;
-  background-color: #CCCCCC;
+  margin: 10px;
   border-radius: .5%;
   padding: 15px;
 }
@@ -153,11 +152,13 @@ a:visited {
     color: #F7CB15;
 }
 
-table {
+table, th, td {
   
   margin: auto;
   text-align: center;
-  width: 50%;
+  width: 55%;
+  border: 2px solid black;
+  border-collapse: collapse;
 }
 
 th, tr {
