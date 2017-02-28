@@ -67,7 +67,7 @@ width: 100%;
 
 #sub_title {
   
-  width: 1000px;
+  width: 100%;
   margin: : 10px;
   background-color: #CCCCCC;
   border-radius: .5%;
@@ -88,18 +88,15 @@ font-size: 250%;
   vertical-align: text-top;
   width: 25%;
   margin: 30px 30px 30px 3px;
-  min-width: 300px;
+  min-width: 270px;
   text-align: center;
   height: 550px;
-
-
-
 }
 
 .courses_group {
   display: block;
   margin: auto;
-  width: 100%;
+  width: 80%;
   padding-left: 10%;
 
 }
@@ -172,4 +169,14 @@ th, tr {
   display: block;
   text-align: center;
 
+}
+
+@media screen and (max-width: 480px) {
+    #intro  {
+        font-size: 70%;
+    }
+
+    #tech {
+      font-size: 100%
+    }
 }
